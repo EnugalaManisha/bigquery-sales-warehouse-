@@ -1,10 +1,7 @@
+data/
 __pycache__/
 *.pyc
-.pytest_cache/
 .venv/
 .env
-keys/
-*.pem
-sa*.json
-airflow.db
-logs/
+*.json
+!requirements.txt
