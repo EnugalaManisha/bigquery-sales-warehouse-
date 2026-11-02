@@ -1,6 +1,5 @@
--- Analytical queries (CTEs and window functions).
--- Written to run on BigQuery; they also run unchanged on DuckDB for local testing
--- when the table names are swapped (see local_validate.py).
+   -- Written to run on BigQuery. local_validate.py runs the same logic on SQLite for
+   -- local testing, swapping only the DATE_TRUNC call.
 
 -- 1) Monthly revenue with month-over-month growth
 WITH monthly AS (
